@@ -3,29 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DC2D097224A02FEF003872A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D097124A02FEF003872A3 /* AppDelegate.swift */; };
 		DC2D097424A02FEF003872A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D097324A02FEF003872A3 /* SceneDelegate.swift */; };
-		DC2D097624A02FEF003872A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D097524A02FEF003872A3 /* ViewController.swift */; };
 		DC2D097924A02FEF003872A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2D097724A02FEF003872A3 /* Main.storyboard */; };
 		DC2D097C24A02FEF003872A3 /* To_do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC2D097A24A02FEF003872A3 /* To_do_List.xcdatamodeld */; };
 		DC2D097E24A02FF0003872A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2D097D24A02FF0003872A3 /* Assets.xcassets */; };
 		DC2D098124A02FF0003872A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2D097F24A02FF0003872A3 /* LaunchScreen.storyboard */; };
+		DC2D098924A0318F003872A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D098824A0318F003872A3 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC2D096E24A02FEF003872A3 /* To-do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2D096E24A02FEF003872A3 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2D097124A02FEF003872A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC2D097324A02FEF003872A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC2D097524A02FEF003872A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC2D097824A02FEF003872A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC2D097B24A02FEF003872A3 /* To_do_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_do_List.xcdatamodel; sourceTree = "<group>"; };
 		DC2D097D24A02FF0003872A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC2D098024A02FF0003872A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC2D098224A02FF0003872A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2D098824A0318F003872A3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		DC2D096524A02FEF003872A3 = {
 			isa = PBXGroup;
 			children = (
+				DC2D098824A0318F003872A3 /* TableViewController.swift */,
 				DC2D097024A02FEF003872A3 /* To-do List */,
 				DC2D096F24A02FEF003872A3 /* Products */,
 			);
@@ -50,7 +51,7 @@
 		DC2D096F24A02FEF003872A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC2D096E24A02FEF003872A3 /* To-do List.app */,
+				DC2D096E24A02FEF003872A3 /* ToDo List.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +61,6 @@
 			children = (
 				DC2D097124A02FEF003872A3 /* AppDelegate.swift */,
 				DC2D097324A02FEF003872A3 /* SceneDelegate.swift */,
-				DC2D097524A02FEF003872A3 /* ViewController.swift */,
 				DC2D097724A02FEF003872A3 /* Main.storyboard */,
 				DC2D097D24A02FF0003872A3 /* Assets.xcassets */,
 				DC2D097F24A02FF0003872A3 /* LaunchScreen.storyboard */,
@@ -87,7 +87,7 @@
 			);
 			name = "To-do List";
 			productName = "To-do List";
-			productReference = DC2D096E24A02FEF003872A3 /* To-do List.app */;
+			productReference = DC2D096E24A02FEF003872A3 /* ToDo List.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,8 +105,8 @@
 					};
 				};
 			};
-			buildConfigurationList = DC2D096924A02FEF003872A3 /* Build configuration list for PBXProject "To-do List" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = DC2D096924A02FEF003872A3 /* Build configuration list for PBXProject "ToDo List" */;
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2D097624A02FEF003872A3 /* ViewController.swift in Sources */,
 				DC2D097224A02FEF003872A3 /* AppDelegate.swift in Sources */,
 				DC2D097424A02FEF003872A3 /* SceneDelegate.swift in Sources */,
 				DC2D097C24A02FEF003872A3 /* To_do_List.xcdatamodeld in Sources */,
+				DC2D098924A0318F003872A3 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +291,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWKFWA48F2;
 				INFOPLIST_FILE = "To-do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "zxc.To-do-List";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = govoroverx;
+				PRODUCT_NAME = "ToDo List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,12 +310,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWKFWA48F2;
 				INFOPLIST_FILE = "To-do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "zxc.To-do-List";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = govoroverx;
+				PRODUCT_NAME = "ToDo List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC2D096924A02FEF003872A3 /* Build configuration list for PBXProject "To-do List" */ = {
+		DC2D096924A02FEF003872A3 /* Build configuration list for PBXProject "ToDo List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC2D098324A02FF0003872A3 /* Debug */,
